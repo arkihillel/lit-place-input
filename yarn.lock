@@ -1373,24 +1373,10 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@material/animation@5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/animation/-/animation-5.0.0-canary.1c494e567.0.tgz#c3acbedf67e78b4b35306df82652e601f006b758"
-  integrity sha512-reEvoJue3XYRTZaNmVOj+1l41w1N8ix7KgzICHSR7d474G0VHQPp9v6ylvvB/QUsyew3xcE7YaqTSdP67nA54A==
-  dependencies:
-    tslib "^1.9.3"
-
 "@material/animation@5.0.0-canary.a1a0deb3e.0":
   version "5.0.0-canary.a1a0deb3e.0"
   resolved "https://registry.yarnpkg.com/@material/animation/-/animation-5.0.0-canary.a1a0deb3e.0.tgz#c3ea79356f76375f5843785f31d685e32979d738"
   integrity sha512-oaKR/PcDaNTFRNPAH44wVg/8O0IKst+ckaSVbv5t6fRqNBUhPwBxUmjIqJTI0aeL5RLQaRp9h9jMZVz0YLqmVw==
-  dependencies:
-    tslib "^1.9.3"
-
-"@material/base@5.0.0-canary.1c494e567.0", "@material/base@=5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/base/-/base-5.0.0-canary.1c494e567.0.tgz#3d91ac862b898dee3581ef2b25c1badf91033ba3"
-  integrity sha512-K23UTOxLrbEqAkbKb0aYSkLJ4L8d6vSlzx908iGTho9ybFLUcamRvQfav0mgpACmlPIxwrkbN40KAzGApTt4Gw==
   dependencies:
     tslib "^1.9.3"
 
@@ -1406,24 +1392,12 @@
   resolved "https://registry.yarnpkg.com/@material/density/-/density-5.0.0-canary.a1a0deb3e.0.tgz#63192ee40199d216af8ec28858b16584c73e91ac"
   integrity sha512-fiveGGId+X0XXdV7FpENhJzRu2GBslybJlMB7cEGJvMC0BXZmqaSJlIrAy8zse69jfPtLuIuSzFLD/hQ8L2y+Q==
 
-"@material/dom@5.0.0-canary.1c494e567.0", "@material/dom@=5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/dom/-/dom-5.0.0-canary.1c494e567.0.tgz#0f208bbfc28b5132a952b0373ba2495847cc86e4"
-  integrity sha512-O4GDLRXFA9PJbTfkqEhuI+Yow6dKHiDLdDDNX366rLpbpPyOXrblOW7WVRhLE+L/iuocdPqNYs9sUKQMiW75UQ==
-  dependencies:
-    tslib "^1.9.3"
-
 "@material/dom@5.0.0-canary.a1a0deb3e.0", "@material/dom@=5.0.0-canary.a1a0deb3e.0":
   version "5.0.0-canary.a1a0deb3e.0"
   resolved "https://registry.yarnpkg.com/@material/dom/-/dom-5.0.0-canary.a1a0deb3e.0.tgz#3b566ce65a769d7f734e3c3f1c33861bc757cf62"
   integrity sha512-jd/Y/nS+Op93EEDm59K9r8x0MJtzSKXXCxyviXfO/tqz6tsoLeghTIPlmEbYohwjV6m+bK2mfpMBOQ7Ryr2fHg==
   dependencies:
     tslib "^1.9.3"
-
-"@material/feature-targeting@5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/feature-targeting/-/feature-targeting-5.0.0-canary.1c494e567.0.tgz#bd51caf80108444081077ebd42ebfef58fec461f"
-  integrity sha512-Ti3CIVLJMXmTZsZjtUeAP2sdAb9nNTHK7EIdLLZjcrYe2GexWtJPS//AXDK7PDkBj7kYqIP7xUdUGfVYSz+g4Q==
 
 "@material/feature-targeting@5.0.0-canary.a1a0deb3e.0":
   version "5.0.0-canary.a1a0deb3e.0"
@@ -1455,17 +1429,6 @@
     "@material/theme" "5.0.0-canary.a1a0deb3e.0"
     tslib "^1.9.3"
 
-"@material/mwc-base@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@material/mwc-base/-/mwc-base-0.12.0.tgz#666a2349e3461f26d88e1d1dbb4ebfe6d84726f6"
-  integrity sha512-JjhZbzrs6WM9Gjo6IIsdMXORh4F4BTESa+SnV4lqhpfBdDJhWcADvPD9WrU23MS3p+/f/1SzUrRKyQ9dfumCSw==
-  dependencies:
-    "@material/base" "=5.0.0-canary.1c494e567.0"
-    "@material/dom" "=5.0.0-canary.1c494e567.0"
-    "@material/ripple" "=5.0.0-canary.1c494e567.0"
-    lit-element "^2.2.1"
-    tslib "^1.10.0"
-
 "@material/mwc-base@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@material/mwc-base/-/mwc-base-0.13.0.tgz#b2881c01333cca18a57cd2199b398416723321c6"
@@ -1485,15 +1448,6 @@
     "@material/floating-label" "=5.0.0-canary.a1a0deb3e.0"
     lit-element "^2.2.1"
     lit-html "^1.1.2"
-    tslib "^1.10.0"
-
-"@material/mwc-icon@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@material/mwc-icon/-/mwc-icon-0.12.0.tgz#898350ddb681e633d5ac57872d6681e484185f4a"
-  integrity sha512-MTy0O0d90SwYEDSGaHCU/SlIuCKTqnBxX8w5bzXL1QggemxT+NZudiFkRnStiAdp4e4C2WdGDR4WFAjzKPAO/g==
-  dependencies:
-    "@material/mwc-base" "^0.12.0"
-    lit-element "^2.2.1"
     tslib "^1.10.0"
 
 "@material/mwc-icon@^0.13.0":
@@ -1571,18 +1525,6 @@
     "@material/theme" "5.0.0-canary.a1a0deb3e.0"
     tslib "^1.9.3"
 
-"@material/ripple@=5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/ripple/-/ripple-5.0.0-canary.1c494e567.0.tgz#2228ff3fe90d10b220730636a764e26aee562818"
-  integrity sha512-AJZ/eL2dFF6kVa5w6Tl8TiLjoBE1IcA96sZFUPdNJqBM4ddHpHoFejrkJOt7dVxmAIOgHjktUo8+5vHDOAE14w==
-  dependencies:
-    "@material/animation" "5.0.0-canary.1c494e567.0"
-    "@material/base" "5.0.0-canary.1c494e567.0"
-    "@material/dom" "5.0.0-canary.1c494e567.0"
-    "@material/feature-targeting" "5.0.0-canary.1c494e567.0"
-    "@material/theme" "5.0.0-canary.1c494e567.0"
-    tslib "^1.9.3"
-
 "@material/rtl@5.0.0-canary.a1a0deb3e.0":
   version "5.0.0-canary.a1a0deb3e.0"
   resolved "https://registry.yarnpkg.com/@material/rtl/-/rtl-5.0.0-canary.a1a0deb3e.0.tgz#b10470f304dfa49cc07e64e4fcd3850ce7b1a013"
@@ -1615,13 +1557,6 @@
     "@material/theme" "5.0.0-canary.a1a0deb3e.0"
     "@material/typography" "5.0.0-canary.a1a0deb3e.0"
     tslib "^1.9.3"
-
-"@material/theme@5.0.0-canary.1c494e567.0":
-  version "5.0.0-canary.1c494e567.0"
-  resolved "https://registry.yarnpkg.com/@material/theme/-/theme-5.0.0-canary.1c494e567.0.tgz#68ec72bc85d6dfb5883f83895b90c6c5fce0852b"
-  integrity sha512-U4u326P7h3r3dz+0y3LlqlBqh2oyhXdpzuhdBuhVBKyW/3cMup+BWMBaNBcx/W9igFKWdkk5Z9AoLguoDpBLqg==
-  dependencies:
-    "@material/feature-targeting" "5.0.0-canary.1c494e567.0"
 
 "@material/theme@5.0.0-canary.a1a0deb3e.0", "@material/theme@=5.0.0-canary.a1a0deb3e.0":
   version "5.0.0-canary.a1a0deb3e.0"
@@ -4307,57 +4242,7 @@ es-abstract@^1.17.0, es-abstract@^1.17.0-next.1:
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
 
-es-dev-server@^1.23.0, es-dev-server@^1.44.0, es-dev-server@^1.45.1:
-  version "1.45.1"
-  resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.45.1.tgz#469d27aaa5a8b7ec52d3c02c90866c8632aae822"
-  integrity sha512-u9FFnR5DtaoGPSlgkf6pus9MDW4RFmDCagocpapSEY3jEsDtMWtOQehY2oY5OzSWuP0dTY3rpoyj3e/cLL7VhQ==
-  dependencies:
-    "@babel/core" "^7.8.3"
-    "@babel/plugin-proposal-dynamic-import" "^7.8.3"
-    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-proposal-optional-chaining" "^7.8.3"
-    "@babel/plugin-syntax-class-properties" "^7.8.3"
-    "@babel/plugin-syntax-import-meta" "^7.8.3"
-    "@babel/plugin-syntax-nullish-coalescing-operator" "^7.8.3"
-    "@babel/plugin-syntax-numeric-separator" "^7.8.3"
-    "@babel/plugin-syntax-optional-chaining" "^7.8.3"
-    "@babel/plugin-transform-template-literals" "^7.8.3"
-    "@babel/preset-env" "^7.8.3"
-    "@open-wc/building-utils" "^2.16.0"
-    "@rollup/plugin-node-resolve" "^6.1.0"
-    "@rollup/pluginutils" "^3.0.0"
-    "@types/minimatch" "^3.0.3"
-    browserslist "^4.9.1"
-    browserslist-useragent "^3.0.2"
-    builtin-modules "^3.1.0"
-    camelcase "^5.3.1"
-    caniuse-api "^3.0.0"
-    caniuse-lite "^1.0.30001033"
-    chokidar "^3.0.0"
-    command-line-args "^5.0.2"
-    command-line-usage "^6.1.0"
-    debounce "^1.2.0"
-    deepmerge "^3.2.0"
-    es-module-lexer "^0.3.13"
-    get-stream "^5.1.0"
-    is-stream "^2.0.0"
-    isbinaryfile "^4.0.2"
-    koa "^2.7.0"
-    koa-compress "^3.0.0"
-    koa-etag "^3.0.0"
-    koa-static "^5.0.0"
-    lru-cache "^5.1.1"
-    minimatch "^3.0.4"
-    opn "^5.4.0"
-    parse5 "^5.1.1"
-    path-is-inside "^1.0.2"
-    polyfills-loader "^1.5.1"
-    portfinder "^1.0.21"
-    strip-ansi "^5.2.0"
-    useragent "^2.3.0"
-    whatwg-url "^7.0.0"
-
-es-dev-server@^1.45.1:
+es-dev-server@^1.23.0, es-dev-server@^1.45.1:
   version "1.45.1"
   resolved "https://registry.yarnpkg.com/es-dev-server/-/es-dev-server-1.45.1.tgz#469d27aaa5a8b7ec52d3c02c90866c8632aae822"
   integrity sha512-u9FFnR5DtaoGPSlgkf6pus9MDW4RFmDCagocpapSEY3jEsDtMWtOQehY2oY5OzSWuP0dTY3rpoyj3e/cLL7VhQ==
@@ -8544,28 +8429,6 @@ polished@^3.3.1:
   integrity sha512-9Rch6iMZckABr6EFCLPZsxodeBpXMo9H4fRlfR/9VjMEyy5xpo1/WgXlJGgSjPyVhEZNycbW7UmYMNyWS5MI0g==
   dependencies:
     "@babel/runtime" "^7.6.3"
-
-polyfills-loader@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/polyfills-loader/-/polyfills-loader-1.5.1.tgz#d808790bf5701b66d2adffe306e5f929496396d5"
-  integrity sha512-HIFEn/SggO+RHVLySvM8jIVqXu7p5VG67vDNHWagd0y8CGoqCzE57Nq1XuuJ2pHKcS82tkfOA/LRPBLZjgLd4g==
-  dependencies:
-    "@babel/core" "^7.8.3"
-    "@open-wc/building-utils" "^2.16.0"
-    "@webcomponents/webcomponentsjs" "^2.4.0"
-    abortcontroller-polyfill "^1.4.0"
-    core-js-bundle "^3.6.0"
-    deepmerge "^3.2.0"
-    dynamic-import-polyfill "^0.1.1"
-    es-module-shims "^0.4.6"
-    html-minifier "^4.0.0"
-    intersection-observer "^0.7.0"
-    parse5 "^5.1.1"
-    regenerator-runtime "^0.13.3"
-    resize-observer-polyfill "^1.5.1"
-    systemjs "^4.0.0"
-    terser "^4.6.4"
-    whatwg-fetch "^3.0.0"
 
 polyfills-loader@^1.5.1:
   version "1.5.1"
